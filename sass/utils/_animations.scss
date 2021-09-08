@@ -69,3 +69,11 @@
     clip-path: inset(100% 0 0 0 0);
   }
 }
+
+// Hero-Button
+
+.hero-btn:hover {
+    border: 1px solid $color-secondary;
+    background: $color-secondary;
+    transition: 1s;
+}
