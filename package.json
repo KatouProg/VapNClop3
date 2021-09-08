@@ -1,0 +1,22 @@
+{
+  "name": "vap_n_clop_v3",
+  "version": "1.0.0",
+  "description": "Version 3 du site de Vap n' Clop",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:public/css/style.css --style expanded",
+    "prefix": "postcss public/css/style.css --use autoprefixer -d public/css/prefixed/",
+    "prod" : "sass --watch ./sass/main.scss:./public/css/style.css --style compressed postcss ./public/css/style.css --use autoprefixer -d ./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatouProg/VapNClop3.git ini"
+  },
+  "author": "Quentin Buxo",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/KatouProg/VapNClop3/issues"
+  },
+  "homepage": "https://github.com/KatouProg/VapNClop3#readme"
+}

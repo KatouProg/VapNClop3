@@ -1,0 +1,22 @@
+// ********** General **********
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: initial;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
