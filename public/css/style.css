@@ -66,8 +66,8 @@
   }
 }
 .hero-btn:hover {
-  border: 1px solid #f44336;
-  background: #f44336;
+  border: 1px solid #b87844;
+  background: #b87844;
   transition: 1s;
 }
 
@@ -174,7 +174,7 @@ nav .nav-links {
 @media all and (max-width: 700px) {
   nav .nav-links {
     position: absolute;
-    background: #f44336;
+    background: #b87844;
     height: 100vh;
     width: 200px;
     top: 0;
@@ -211,7 +211,7 @@ nav .nav-links a {
   content: "";
   width: 0%;
   height: 2px;
-  background: #f44336;
+  background: #b87844;
   display: block;
   margin: auto;
   transition: 0.5s;
