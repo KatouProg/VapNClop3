@@ -21,7 +21,7 @@ color: initial;
 
 .text-box {
     width: 90%;
-    color: white;
+    color: $color-primary;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,6 +30,9 @@ color: initial;
 
     & h1 {
         font-size: 62px;
+        @include mobile {
+            font-size: 25px;
+        }
     }
 
     & p {
