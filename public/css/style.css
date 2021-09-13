@@ -12,7 +12,7 @@
 }
 .wrapper {
   pointer-events: none;
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
@@ -29,7 +29,7 @@
 
 .loader {
   position: relative;
-  width: 13rem;
+  width: 15rem;
 }
 .loader:before {
   content: "";
@@ -109,6 +109,56 @@ a {
   font-size: 18px;
 }
 
+.description {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.description h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.description p {
+  color: #4d4d4d;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+@media all and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+.row__desc {
+  flex-basis: 31%;
+  background: #b87844;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.row__desc p {
+  color: white;
+}
+.row__desc h3 {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.row__desc:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+}
+
 .hero-btn {
   display: inline-block;
   color: white;
@@ -154,7 +204,7 @@ nav .fas {
 }
 @media all and (max-width: 700px) {
   nav .fa-bars {
-    padding-left: 100px;
+    padding-left: 20px;
   }
 }
 nav img {
@@ -164,7 +214,7 @@ nav img {
   nav img {
     padding-top: 10px;
     padding-left: 10%;
-    width: 300px;
+    width: 200px;
   }
 }
 nav .nav-links {

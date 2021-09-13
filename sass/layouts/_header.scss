@@ -32,7 +32,7 @@ nav {
     & .fa-bars {
 
         @include mobile {
-            padding-left: 100px;
+            padding-left: 20px;
         }
     }
 
@@ -42,7 +42,7 @@ nav {
         @include mobile {
             padding-top: 10px;
             padding-left: 10%;
-            width: 300px;
+            width: 200px;
         }
     }
 
