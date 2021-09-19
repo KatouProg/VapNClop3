@@ -66,8 +66,8 @@
   }
 }
 .hero-btn:hover {
-  border: 1px solid #b87844;
-  background: #b87844;
+  border: 1px solid #449db8;
+  background: #449db8;
   transition: 1s;
 }
 
@@ -121,8 +121,8 @@ a {
 }
 .description p {
   color: #4d4d4d;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 22px;
   padding: 10px;
 }
@@ -139,7 +139,7 @@ a {
 }
 .row__desc {
   flex-basis: 31%;
-  background: #b87844;
+  background: #deeef5;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -147,16 +147,57 @@ a {
   transition: 0.5s;
 }
 .row__desc p {
-  color: white;
+  color: #0f2930;
+  font-size: 17px;
 }
 .row__desc h3 {
-  color: white;
+  color: #0f2930;
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
 }
 .row__desc:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 20px 0px rgba(68, 157, 184, 0.5);
+  background-color: #cee6f0;
+}
+
+.shop {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.shop p {
+  font-size: 20px;
+}
+
+.shop-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.shop-col:hover {
+  transform: scale(1.02);
+}
+.shop-col img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.shop-col .layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.shop-col .layer:hover {
+  background: rgba(68, 157, 184, 0.35);
 }
 
 .hero-btn {
@@ -224,7 +265,7 @@ nav .nav-links {
 @media all and (max-width: 700px) {
   nav .nav-links {
     position: absolute;
-    background: #b87844;
+    background: #449db8;
     height: 100vh;
     width: 200px;
     top: 0;
@@ -261,7 +302,7 @@ nav .nav-links a {
   content: "";
   width: 0%;
   height: 2px;
-  background: #b87844;
+  background: #449db8;
   display: block;
   margin: auto;
   transition: 0.5s;

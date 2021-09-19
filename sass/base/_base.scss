@@ -54,8 +54,8 @@ color: initial;
 
     & p {
         color:rgb(77, 77, 77);
-        font-size: 18px;
-        font-weight: 300;
+        font-size: 20px;
+        font-weight: 500;
         line-height: 22px;
         padding: 10px;
     }
@@ -72,7 +72,7 @@ color: initial;
 
     &__desc {
         flex-basis: 31%;
-        background: $color-secondary;
+        background: $color-bg;
         border-radius: 10px;
         margin-bottom: 5%;
         padding: 20px 12px;
@@ -80,18 +80,65 @@ color: initial;
         transition: 0.5s;
 
         & p {
-            color: $color-primary;
+            color: $color-tertiary;
+            font-size: 17px;
         }
 
         & h3 {
-            color: $color-primary;
+            color: $color-tertiary;
             text-align: center;
             font-weight: 600;
             margin: 10px 0;
         }
 
         &:hover {
-            box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+            box-shadow: 0 0 20px 0px rgba($color-secondary, .5);
+            background-color: darken($color-bg, 4%);
+        }
+    }
+}
+
+// ********** Shop **********
+
+.shop {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+    & p {
+        font-size: 20px;
+    }
+}
+
+.shop-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+        &:hover {
+            transform: scale(1.02);
+        }
+
+    & img {
+        width: 100%;
+        height: 100%;
+        transition: 0.5s;
+    }
+
+    & .layer {
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+
+        &:hover {
+            background: rgba($color-secondary, .35);
         }
     }
 }
