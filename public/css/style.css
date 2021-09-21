@@ -158,7 +158,7 @@ a {
 }
 .row__desc:hover {
   box-shadow: 0 0 20px 0px rgba(68, 157, 184, 0.5);
-  background-color: #cee6f0;
+  background-color: #bfdeec;
 }
 
 .shop {
@@ -183,6 +183,7 @@ a {
   transform: scale(1.02);
 }
 .shop-col img {
+  display: block;
   width: 100%;
   height: 100%;
   transition: 0.5s;
@@ -196,8 +197,24 @@ a {
   left: 0;
   transition: 0.5s;
 }
+.shop-col .layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: white;
+  font-size: 26px;
+  bottom: -20%;
+  left: 60%;
+  transform: translateY(-150%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
 .shop-col .layer:hover {
-  background: rgba(68, 157, 184, 0.35);
+  background: rgba(15, 41, 48, 0.7);
+}
+.shop-col .layer:hover h3 {
+  left: 0;
+  opacity: 1;
 }
 
 .hero-btn {
