@@ -73,6 +73,7 @@
 // Hero-Button
 
 .hero-btn:hover {
+  color: $color-tertiary;
     border: 1px solid $color-secondary;
     background: $color-secondary;
     transition: 1s;
