@@ -66,9 +66,9 @@
   }
 }
 .hero-btn:hover {
-  color: #1b1d06;
-  border: 1px solid #d4fa29;
-  background: #d4fa29;
+  color: #130f04;
+  border: 1px solid #f79b5e;
+  background: #f79b5e;
   transition: 1s;
 }
 
@@ -148,17 +148,17 @@ a {
   transition: 0.5s;
 }
 .row__desc p {
-  color: #1b1d06;
+  color: #130f04;
   font-size: 17px;
 }
 .row__desc h3 {
-  color: #1b1d06;
+  color: #130f04;
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
 }
 .row__desc:hover {
-  box-shadow: 0 0 20px 0px rgba(212, 250, 41, 0.5);
+  box-shadow: 0 0 20px 0px rgba(247, 155, 94, 0.5);
   background-color: #e2ecbf;
 }
 
@@ -211,7 +211,7 @@ a {
   transition: 0.5s;
 }
 .shop-col .layer:hover {
-  background: rgba(27, 29, 6, 0.7);
+  background: rgba(19, 15, 4, 0.7);
 }
 .shop-col .layer:hover h3 {
   left: 0;
@@ -283,7 +283,7 @@ nav .nav-links {
 @media all and (max-width: 700px) {
   nav .nav-links {
     position: absolute;
-    background: #d4fa29;
+    background: #f79b5e;
     height: 100vh;
     width: 200px;
     top: 0;
@@ -320,7 +320,7 @@ nav .nav-links a {
   content: "";
   width: 0%;
   height: 2px;
-  background: #d4fa29;
+  background: #f79b5e;
   display: block;
   margin: auto;
   transition: 0.5s;

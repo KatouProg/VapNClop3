@@ -5,7 +5,7 @@
       @content;
     }
   } 
-  @mixin tabletn {
+  @mixin tablet {
     @media all and (max-width: map-get($breakpoint, tablet)) {
       @content;
     }
