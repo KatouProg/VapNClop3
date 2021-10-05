@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 .contact {
-    background: $color-bg-secondary;
+    background: lighten($color-bg-secondary, 50%);
     padding-top: 0px;
 }
 
 h2 {
-   color: $color-primary; 
+   color: $color-tertiary; 
    padding-top: 30px;
    font-size: 75px; 
    font-weight: 700;
