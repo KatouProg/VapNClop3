@@ -32,7 +32,7 @@
           <li><a href="">HOME</a></li>
           <li><a href="">NOS PRODUITS</a></li>
           <li><a href="">NOS CONSEILS</a></li>
-          <li><a href="">CONTACT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
       <i class="fas fa-bars" onclick="showMenu()"></i>
@@ -96,41 +96,40 @@
 
 <!------- Contact Form ------->
 
-  <section class="contact">
-    <h2>Nous contacter</h2>
-      <div class="wpcf7" id="wpcf7-f156-p143-o1 formwrap">
-          <form action="/?page_id=143#wpcf7-f156-p143-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-              <div style="display: none;">
-                  <input type="hidden" name="_wpcf7" value="156">
-                  <input type="hidden" name="_wpcf7_version" value="3.7.2">
-                  <input type="hidden" name="_wpcf7_locale" value="en_US">
-                  <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f156-p143-o1">
-                  <input type="hidden" name="_wpnonce" value="d1da331d93">
-              </div>
-              <p>
-                <span class="wpcf7-form-control-wrap Name">
-                  <input type="text" name="Name" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nom">
-                </span>
-                <span class="wpcf7-form-control-wrap Email">
-                  <input type="email" name="Email"  size="40" class="emailinput wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email">
-                </span>
-                <span class="wpcf7-form-control-wrap Subject flat">
-                  <select name="Subject" class="indent wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
-                    <option value="General">Question client</option>
-                    <option value="Booking">Contact Pro</option>
-                  </select>
-                </span>
-                <span class="wpcf7-form-control-wrap Message">
-                  <textarea name="Message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea>
-                </span>
-                <input type="submit" value="Envoyer" class="wpcf7-form-control wpcf7-submit btn">
-                <img class="ajax-loader" src="http://www.jordancundiff.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;">
-            </p>
-            <div class="wpcf7-response-output wpcf7-display-none">
-            </div>
-        </form>
-      </div>
+<div class="container">
+  <section class="section1">
+    <div class="sec1title">
+      <h1>Get in touch</h1>
+    </div>	
   </section>
+  <section class="section2"> 
+    <div class="contactform">
+    <h5>Drop us a line...</h5>
+      <form action="#">
+        <label for="firstname">
+          <i class="cntfrmicn fa fa-user"></i>
+          <input name="firstname" class="form-fields" type="text">
+        </label>
+        <label for="email">
+          <i class="cntfrmicn fa fa-envelope"></i>
+          <input name="email" class="form-fields" type="text">
+        </label>
+        <label for="contact">
+          <i class="cntfrmicn fa fa-phone"></i>
+          <input name="contact" class="form-fields" type="text">
+        </label>
+        <label for="textarea">
+          <i class="cntfrmicn fa fa-comment"></i>
+          <textarea class="form-fields" name="textarea" id="" cols="30" rows="10"></textarea>
+        </label>
+        <button class="form-fields button" value="Send" type="submit">Send <i class="fa fa-paper-plane"></i></button>
+      </form>
+    </div>
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div class="contmap" style='overflow:hidden;height:550px;width:100%;'><div id='gmap_canvas' style='height:100%;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(19.075314480255834,72.88153973865361),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.075314480255834,72.88153973865361)});infowindow = new google.maps.InfoWindow({content:'<strong>My Location</strong><br>mumbai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+  </section>
+</div>
+
+
   <!-------Javascript for Toggle Menu------->
 
   <script>
