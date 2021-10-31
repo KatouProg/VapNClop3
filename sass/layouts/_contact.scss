@@ -33,13 +33,14 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	text-align: center;
 }
 .sec1title h1 {
-	    font-size: 40px;
+	font-size: 40px;
     margin: 25px;
     text-transform: uppercase;
     color: $color-tertiary;
     font-weight: 400;
 }
 .section2 {
+	display: flex;
 	position: relative;
 	overflow: hidden;
 }
@@ -52,6 +53,8 @@ input:focus, textarea:focus, keygen:focus, select:focus {
     padding: 30px 40px 70px;
     box-sizing: border-box;
 }
+
+
 .section2 .contactform input.form-fields,
 .section2 .contactform button.form-fields,
 .section2 .contactform textarea.form-fields {

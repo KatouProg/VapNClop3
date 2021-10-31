@@ -387,6 +387,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 }
 
 .section2 {
+  display: flex;
   position: relative;
   overflow: hidden;
 }
